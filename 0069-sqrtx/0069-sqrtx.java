@@ -2,7 +2,7 @@ class Solution {
     public int mySqrt(int x) {
        long lo =0;
        long hi = x;
-       long ans =1;
+       long ans =0;
        while(hi>=lo){
            long mid = (lo)+(hi-lo)/2;
            long sq= mid*mid;
